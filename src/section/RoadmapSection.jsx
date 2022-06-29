@@ -23,28 +23,28 @@ const RoadmapSection = () => {
               <div>
                 <BlackGrave />
               </div>
-              <p className="px-4 text-xl">
+              <p className="px-4 text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim purus odio orci, diam etiam erat purus odio lectus.
               </p>
             </article><article className="flex">
               <div>
                 <BlackGrave />
               </div>
-              <p className="px-4 text-xl">
+              <p className="px-4 text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim purus odio orci, diam etiam erat purus odio lectus.
               </p>
             </article><article className="flex">
               <div>
                 <BlackGrave />
               </div>
-              <p className="px-4 text-xl">
+              <p className="px-4 text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim purus odio orci, diam etiam erat purus odio lectus.
               </p>
             </article><article className="flex">
               <div>
                 <BlackGrave />
               </div>
-              <p className="px-4 text-xl">
+              <p className="px-4 text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim purus odio orci, diam etiam erat purus odio lectus.
               </p>
             </article>

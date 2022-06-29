@@ -13,7 +13,7 @@ const TeamSection = () => {
               <img className='w-36 mx-auto' src={Skull} alt="Mystery Skull" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-2xl font-bold'>Name</h2>
-                <p className="text-xl">
+                <p className="text-lg">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim purus odio orci, diam etiam erat purus odio lectus.
                 </p>
                 <Twitter />
@@ -25,7 +25,7 @@ const TeamSection = () => {
               <img className='w-36 mx-auto' src={Skull} alt="Mystery Skull" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-2xl font-bold'>Name</h2>
-                <p className="text-xl">
+                <p className="text-lg">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim purus odio orci, diam etiam erat purus odio lectus.
                 </p>
                 <Twitter />
@@ -37,7 +37,7 @@ const TeamSection = () => {
               <img className='w-36 mx-auto' src={Skull} alt="Mystery Skull" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-2xl font-bold'>Name</h2>
-                <p className="text-xl">
+                <p className="text-lg">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim purus odio orci, diam etiam erat purus odio lectus.
                 </p>
                 <Twitter />
