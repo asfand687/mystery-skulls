@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Avander';
+  src: local('Avander'), url("./assets/Avander.ttf") format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-avander {
+  font-family: 'Avander';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-gradient {
+  background: linear-gradient(90.36deg, #4AAD57 0.31%, #D4EC60 99.71%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hero-bg {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.29)), url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-roadmap {
+  background: url("./assets/roadmap-02.svg") no-repeat center center/contain;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-inset {
+  box-shadow: -1px 30px 23px 2px rgba(0, 0, 0, 0.46) inset;
 }
