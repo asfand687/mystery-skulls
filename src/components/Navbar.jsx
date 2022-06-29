@@ -7,8 +7,8 @@ const Navbar = () => {
   const [showNav, setShowNav] = useState(false)
   return (
     <nav className="px-4 bg-white">
-      <div className="w-full lg:max-w-7xl mx-auto flex items-center md:space-x-10 overflow-x-hidden">
-        <img className="w-12" src={Logo} alt="Mystery Skulls" />
+      <div className="w-full lg:max-w-[1400px] mx-auto flex items-center md:space-x-10 overflow-x-hidden">
+        <img className="w-10" src={Logo} alt="Mystery Skulls" />
         <div className={`flex flex-1 z-0 justify-between transition-transform duration-300 ease-in-out transform ${showNav ? "translate-x-[120%]" : "translate-x-0"}`}>
           <a href="/" className="bg-[#E2E2E2] inline-flex justify-center items-center text-sm font-semibold rounded-full h-10 w-28">
             Home
