@@ -1,7 +1,6 @@
 import React from 'react'
 import { ReactComponent as Graveyard } from '../assets/graveyard.svg'
 import Logo from '../assets/logo-big.png'
-import LogoSmall from '../assets/logo.png'
 import SkullOne from '../assets/skull-01.png'
 import SkullTwo from '../assets/skull-02.png'
 import SkullThree from '../assets/skull-03.png'
