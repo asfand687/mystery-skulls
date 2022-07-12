@@ -1,17 +1,17 @@
 import React from 'react'
 import { ReactComponent as Roadmap01 } from '../assets/roadmap-01.svg'
-import { ReactComponent as TreeLeft } from '../assets/tree-bg-left.svg'
-import { ReactComponent as TreeRight } from '../assets/tree-right.svg'
+import TreeLeft from '../assets/treesgifleft.gif'
+import TreeRight from '../assets/treegifright.gif'
 import GraveBullet from '../components/GraveBullet'
 
 const RoadmapSection = () => {
   return (
     <section className="relative pt-20">
-      <div className="absolute z-10 top-36">
-        <TreeLeft />
+      <div className="absolute z-10 -left-32 top-36">
+        <img src={TreeLeft} alt="Tree" />
       </div>
-      <div className="absolute z-10 -right-14 top-36">
-        <TreeRight />
+      <div className="absolute z-10 -right-32 top-36">
+        <img src={TreeRight} alt="Tree" />
       </div>
       <div className="w-full max-w-2xl mx-auto pt-6">
         <Roadmap01 />
