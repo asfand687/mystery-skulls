@@ -5,7 +5,7 @@ import { ReactComponent as Boat } from '../assets/boat.svg'
 
 const Footer = () => {
   return (
-    <footer className="py-20 pb-10 flex justify-center">
+    <footer className="py-10 flex justify-center">
       <div className="space-y-6">
         <img src={Skull} className="w-16 mx-auto" alt="Mystery Skulls" />
         <div className="flex gap-x-4">

@@ -3,7 +3,7 @@ import { ReactComponent as FAQTitle } from '../assets/faq-title.svg'
 
 const FAQSection = () => {
   return (
-    <section className="pb-20">
+    <section id="faq">
       <div className="w-full relative max-w-5xl mx-auto p-4">
         <FAQTitle />
         <div className='flex py-16'>

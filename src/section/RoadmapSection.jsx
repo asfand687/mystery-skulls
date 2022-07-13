@@ -6,7 +6,7 @@ import GraveBullet from '../components/GraveBullet'
 
 const RoadmapSection = () => {
   return (
-    <section className="relative pt-20">
+    <section className="relative pt-10" id="roadmap">
       <div className="absolute z-10 -left-32 top-36">
         <img src={TreeLeft} alt="Tree" />
       </div>

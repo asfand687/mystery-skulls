@@ -7,7 +7,7 @@ import SkullThree from '../assets/skull-03.png'
 
 const IntroductionSection = () => {
   return (
-    <section className="section-inset py-20">
+    <section className="section-inset pt-20" id="about">
       <div className="w-full relative max-w-5xl mx-auto bg-graveyard p-4">
         <Graveyard className="mx-auto relative z-0" />
         <div className="absolute flex top-0 left-0 z-10 py-28 px-20">

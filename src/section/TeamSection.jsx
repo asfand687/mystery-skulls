@@ -9,7 +9,7 @@ import Aleksei from '../assets/alexi.png'
 
 const TeamSection = () => {
   return (
-    <section className="py-20">
+    <section id="team">
       <div className="flex flex-col items-center text-white pb-8">
         <h2 className="font-avander text-center text-7xl ">The Mystery Skulls Team</h2>
         <h3 className="font-avander text-5xl pt-10 pb-4">About Team</h3>
