@@ -20,8 +20,8 @@ const HeroSection = () => {
 
 
   return (
-    <section className="min-h-[1056px] flex justify-center items-center text-white" id="hero">
-      <div className="absolute z-0">
+    <section className="min-h-[400px] md:min-h-[500px] lg:min-h-[1056px] flex justify-center items-center text-white" id="hero">
+      <div className="absolute top-8 lg:top-0 z-0">
         <ReactPlayer
           className="video"
           url={Video}
@@ -33,7 +33,7 @@ const HeroSection = () => {
         />
       </div>
       <div className="z-10">
-        <h1 className='font-avander animate-fade text-[180px] leading-[180px] text-center'>MYSTERY <br />
+        <h1 className='font-avander animate-fade text-6xl lg:text-[180px] lg:leading-[180px] text-center'>MYSTERY <br />
           SKULLS</h1>
       </div>
       <div className="absolute z-10 bottom-0 right-10">
@@ -50,9 +50,6 @@ const HeroSection = () => {
                 </svg>
               </button>
           }
-
-
-
         </div>
       </div>
     </section>

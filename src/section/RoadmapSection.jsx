@@ -6,41 +6,44 @@ import GraveBullet from '../components/GraveBullet'
 
 const RoadmapSection = () => {
   return (
-    <section className="relative pt-10" id="roadmap">
-      <div className="absolute z-10 -left-32 top-36">
+    <section className="relative flex flex-col items-center lg:block pt-4 lg:pt-10" id="roadmap">
+      <div className="hidden lg:block absolute z-10 -left-32 top-36">
         <img src={TreeLeft} alt="Tree" />
       </div>
-      <div className="absolute z-10 -right-32 top-36">
+      <div className="hidden lg:block absolute z-10 -right-32 top-36">
         <img src={TreeRight} alt="Tree" />
       </div>
-      <div className="w-full max-w-2xl mx-auto pt-6">
-        <Roadmap01 />
+      <div className="w-full lg:max-w-2xl mx-auto pt-6">
+        <Roadmap01 className="mx-auto lg:mx-0" />
       </div>
-      <div className="w-full flex lg:space-x-12 max-w-5xl mx-auto px-4 pt-28">
-        <div className="flex-1 bg-roadmap h-[810px]">
-          <div className='px-14 relative top-32 space-y-8'>
-            <article className="flex">
+      <div className="w-full flex flex-col lg:flex-row lg:space-x-12 max-w-5xl mx-auto px-4 pt-28">
+        <div className="flex-1 bg-roadmap bg-white py-4 lg:h-[810px]">
+          <div className='lg:px-14 relative lg:top-32 space-y-8'>
+            <article className="flex flex-col items-center lg:flex-row">
               <div>
                 <GraveBullet number={1} />
               </div>
               <p className="px-4 text-lg">
                 15% earnings to be donated to Ukraine to assist displaced families during the conflict.
               </p>
-            </article><article className="flex">
+            </article>
+            <article className="flex flex-col items-center lg:flex-row">
               <div>
                 <GraveBullet number={2} />
               </div>
               <p className="px-4 text-lg">
                 35% of royalties will be spread out to holders’ wallets.
               </p>
-            </article><article className="flex">
+            </article>
+            <article className="flex flex-col items-center lg:flex-row">
               <div>
                 <GraveBullet number={3} />
               </div>
               <p className="px-4 text-lg">
                 Each month the founders of the projects will be airdropping Mystery Skulls NFT’S to 50 lucky holders. These airdrops will be completely random.
               </p>
-            </article><article className="flex">
+            </article>
+            <article className="flex flex-col items-center lg:flex-row">
               <div>
                 <GraveBullet number={4} />
               </div>
@@ -51,9 +54,9 @@ const RoadmapSection = () => {
           </div>
         </div>
 
-        <div className="flex-1 bg-roadmap-lg  h-[1200px] mt-28">
-          <div className='px-16 relative top-32 space-y-8'>
-            <article className="flex">
+        <div className="flex-1 bg-roadmap-lg bg-white lg:h-[1200px] mt-14 py-4 lg:mt-28">
+          <div className='lg:px-16 lg:relative lg:top-32 space-y-8'>
+            <article className="flex flex-col items-center lg:flex-row">
               <div>
                 <GraveBullet number={5} />
               </div>
@@ -61,7 +64,8 @@ const RoadmapSection = () => {
                 Merch Store Launch. A merch of our NFT collection will be available for our holders ONLY, to buy. If you become a holder and get one of our NFTS
                 you’ll be granted access to our merch store where only you can buy merch of your own exclusive NFT or even NFTS inside our collection.
               </p>
-            </article><article className="flex">
+            </article>
+            <article className="flex flex-col items-center lg:flex-row">
               <div>
                 <GraveBullet number={6} />
               </div>
@@ -70,7 +74,7 @@ const RoadmapSection = () => {
                 people going around asking how do the holders and members feel about the project in general and what can we improve in the future.
               </p>
             </article>
-            <article className="flex">
+            <article className="flex flex-col items-center lg:flex-row">
               <div>
                 <GraveBullet number={7} />
               </div>

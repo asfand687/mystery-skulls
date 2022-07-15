@@ -1,7 +1,6 @@
 import React from 'react'
 import Skull from '../assets/logo.png'
 import { ReactComponent as Twitter } from '../assets/twitter.svg'
-import { ReactComponent as Boat } from '../assets/boat.svg'
 
 const Footer = () => {
   return (
@@ -14,7 +13,6 @@ const Footer = () => {
               <Twitter />
             </a>
           </div>
-          <Boat />
         </div>
       </div>
     </footer>
