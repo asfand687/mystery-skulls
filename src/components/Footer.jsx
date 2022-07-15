@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <footer className="py-10 flex justify-center">
       <div className="space-y-6">
-        <img src={Skull} className="w-16 mx-auto" alt="Mystery Skulls" />
-        <div className="flex gap-x-4">
+        <img src={Skull} className="w-12 mx-auto" alt="Mystery Skulls" />
+        <div className="flex justify-center gap-x-4">
           <div className="text-white">
             <a href="https://twitter.com/_MysterySkulls_">
               <Twitter />
