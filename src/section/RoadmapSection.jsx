@@ -17,7 +17,7 @@ const RoadmapSection = () => {
         <Roadmap01 className="mx-auto lg:mx-0" />
       </div>
       <div className="w-full flex flex-col lg:flex-row lg:space-x-12 max-w-5xl mx-auto px-4 pt-28">
-        <div className="flex-1 bg-roadmap bg-white py-4 lg:h-[810px]">
+        <div className="flex-1 bg-roadmap bg-white py-4 lg:h-[890px]">
           <div className='lg:px-14 relative lg:top-32 space-y-8'>
             <article className="flex flex-col items-center lg:flex-row">
               <div>
@@ -48,7 +48,7 @@ const RoadmapSection = () => {
                 <GraveBullet number={4} />
               </div>
               <p className="px-4 text-lg">
-                Every week there will be POKER tournaments between holders. As for the winners, they will get an opportunity of getting: FREE MERCH, NFT and ETH/SOL prizes.
+                Design {"&"} Development of our P2E platform will begin to take place. Holders will be able to use their position in the project to participate in snapshots and be able to design/develop the P2E platform + incentives. For the community and by the community - but for real.
               </p>
             </article>
           </div>

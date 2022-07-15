@@ -28,7 +28,7 @@ const IntroductionSection = () => {
                 </div>
                 <div>
                   <p className="font-avander bg-white drop-shadow-md h-16 text-xl rounded-b-[30px] flex justify-center items-center">
-                    Rare
+                    Legendary
                   </p>
                 </div>
               </article><article className="rounded-[30px]">
@@ -37,7 +37,7 @@ const IntroductionSection = () => {
                 </div>
                 <div>
                   <p className="font-avander bg-white drop-shadow-md h-16 rounded-b-[30px] flex justify-center items-center">
-                    Legendary
+                    Rare
                   </p>
                 </div>
               </article>
@@ -45,7 +45,7 @@ const IntroductionSection = () => {
             <section className="pt-4 lg:pt-0">
               <h2 className="text-4xl font-avander text-center pt-4 pb-2">What Is Mystery Skulls?</h2>
               <p className="text-[15px] text-center px-5">As a project, we do not intend to just be as an upcoming NFT Collection.
-                These 7,777 Mystery Skulls have different meanings to everyone in the
+                These Mystery Skulls have different meanings to everyone in the
                 main and OG team. Mystery Skulls has been in the progress of being
                 carefully designed, thought-out and developed for the past year and a half
                 and finally is brought to life better than ever was and will be. </p>
