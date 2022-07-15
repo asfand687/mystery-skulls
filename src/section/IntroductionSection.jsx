@@ -19,7 +19,7 @@ const IntroductionSection = () => {
                   <img src={SkullOne} alt="Mystery Skulls" />
                 </div>
                 <div>
-                  <p className="font-avander bg-white drop-shadow-md h-16 text-xl rounded-b-[30px] flex justify-center items-center">Level One
+                  <p className="font-avander bg-white drop-shadow-md h-16 text-xl rounded-b-[30px] flex justify-center items-center">Common
                   </p>
                 </div>
               </article><article className="rounded-[30px]">
@@ -28,7 +28,7 @@ const IntroductionSection = () => {
                 </div>
                 <div>
                   <p className="font-avander bg-white drop-shadow-md h-16 text-xl rounded-b-[30px] flex justify-center items-center">
-                    Level Two
+                    Rare
                   </p>
                 </div>
               </article><article className="rounded-[30px]">
@@ -37,7 +37,7 @@ const IntroductionSection = () => {
                 </div>
                 <div>
                   <p className="font-avander bg-white drop-shadow-md h-16 rounded-b-[30px] flex justify-center items-center">
-                    Level Three
+                    Legendary
                   </p>
                 </div>
               </article>

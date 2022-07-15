@@ -65,7 +65,7 @@ const TeamSection = () => {
               <img className='mx-auto' src={Aleksei} alt="Aleksei" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-xl font-bold'>Aleksei</h2>
-                <h3 className='text-xl font-bold'>Marketing</h3>
+                <h3 className='text-xl font-bold'>Accounting</h3>
                 <div className="flex gap-x-2">
                   <Twitter className='text-black' />
                   <Discord />
@@ -78,7 +78,7 @@ const TeamSection = () => {
               <img className='mx-auto' src={Marko} alt="Marko" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-xl font-bold'>Marko</h2>
-                <h3 className='text-xl font-bold'>Accountant</h3>
+                <h3 className='text-xl font-bold'>Artist</h3>
                 <div className="flex gap-x-2">
                   <Twitter className='text-black' />
                   <Discord />
