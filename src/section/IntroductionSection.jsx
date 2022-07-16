@@ -1,5 +1,5 @@
 import React from 'react'
-import { ReactComponent as Graveyard } from '../assets/graveyard.svg'
+import Graves from '../assets/graves-transparent.gif'
 import Logo from '../assets/logo-big.png'
 import SkullOne from '../assets/skull-01.png'
 import SkullTwo from '../assets/skull-02.png'
@@ -9,8 +9,10 @@ const IntroductionSection = () => {
   return (
     <section className="section-inset lg:pt-20" id="about">
       <div className="w-full bg-white lg:bg-transparent relative max-w-5xl mx-auto p-4">
-        <Graveyard className="hidden lg:block mx-auto relative z-0" />
-        <div className="lg:absolute flex flex-col items-center lg:flex-row top-0 left-0 z-10 lg:py-28 lg:px-20">
+        <div className="h-10 w-full absolute -z-0 left-0 hidden lg:block lg:left-6 lg:-top-14">
+          <img src={Graves} alt="graves" />
+        </div>
+        <div className="flex relative bg-white rounded-xl flex-col items-center lg:flex-row top-0 left-0 z-10 lg:p-10">
           <div className="pb-4 lg:pb-0"><img src={Logo} alt="mystery skulls" /></div>
           <div className="flex-1 pl-6">
             <section className="flex flex-col items-center space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4">
