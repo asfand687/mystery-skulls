@@ -14,8 +14,8 @@ const IntroductionSection = () => {
         </div>
         <div className="flex relative bg-white rounded-xl flex-col items-center lg:flex-row top-0 left-0 z-10 lg:p-10">
           <div className="pb-4 hidden lg:block lg:pb-0"><img src={Logo} alt="mystery skulls" /></div>
-          <div className="flex-1 pl-6">
-            <section className="flex items-center justify-center space-y-4 lg:space-y-0 flex-row flex-wrap space-x-4">
+          <div className="flex-1 flex flex-col pl-6">
+            <section className="flex order-2 lg:order-1 items-center justify-center space-y-4 lg:space-y-0 flex-row flex-wrap space-x-4">
               <article className="rounded-[30px]">
                 <div className="bg-[#014051] h-56 w-48 rounded-t-[30px] flex justify-center items-center">
                   <img src={SkullOne} alt="Mystery Skulls" />
@@ -46,7 +46,7 @@ const IntroductionSection = () => {
                 </div>
               </article>
             </section>
-            <section className="pt-4 lg:pt-0">
+            <section className="pt-4 order-1 lg:order-2 lg:pt-0">
               <h2 className="text-4xl font-avander text-center pt-4 pb-2">What Is Mystery Skulls?</h2>
               <p className="text-[15px] text-center px-5">As a project, we do not intend to just be as an upcoming NFT Collection.
                 These Mystery Skulls have different meanings to everyone in the

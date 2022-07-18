@@ -23,8 +23,8 @@ const TeamSection = () => {
       </div>
       <div className="w-full max-w-6xl mx-auto p-4">
         <section className="flex justify-center flex-wrap gap-x-4 gap-y-10">
-          <article className="bg-roadmap bg-white pt-8 lg:pt-0 w-[340px] lg:h-[600px]">
-            <div className="px-4 lg:relative top-28 space-y-8">
+          <article className="bg-roadmap tombstone bg-white pt-8 lg:pt-0 w-full lg:w-[340px] h-[600px]">
+            <div className="px-4 max-w-[340px] mx-auto relative top-28 space-y-8">
               <img className='mx-auto' src={Davyd} alt="Davyd" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-xl font-bold'>Davyd</h2>
@@ -36,8 +36,8 @@ const TeamSection = () => {
               </div>
             </div>
           </article>
-          <article className="bg-roadmap bg-white pt-8 lg:pt-0 w-[340px] lg:h-[600px]">
-            <div className="px-4 lg:relative top-28 space-y-8">
+          <article className="bg-roadmap tombstone bg-white pt-8 lg:pt-0 w-full lg:w-[340px] h-[600px]">
+            <div className="px-4 max-w-[340px] mx-auto relative top-28 space-y-8">
               <img className='mx-auto' src={Daniel} alt="Daniel" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-xl font-bold'>Daniel</h2>
@@ -49,8 +49,8 @@ const TeamSection = () => {
               </div>
             </div>
           </article>
-          <article className="bg-roadmap bg-white pt-8 lg:pt-0 w-[340px] lg:h-[600px]">
-            <div className="px-4 lg:relative top-28 space-y-8">
+          <article className="bg-roadmap tombstone bg-white pt-8 lg:pt-0 w-full lg:w-[340px] h-[600px]">
+            <div className="px-4 max-w-[340px] mx-auto relative top-28 space-y-8">
               <img className='mx-auto' src={Aleksei} alt="Aleksei" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-xl font-bold'>Aleksei</h2>
@@ -67,8 +67,8 @@ const TeamSection = () => {
 
       <div className="w-full max-w-[1440px] mx-auto p-4 pt-10">
         <section className="flex flex-wrap justify-center gap-x-4 gap-y-10">
-          <article className="bg-roadmap bg-white pt-8 lg:pt-0 w-[340px] lg:h-[600px]">
-            <div className="px-4 lg:relative top-28 space-y-8">
+          <article className="bg-roadmap tombstone bg-white pt-8 lg:pt-0 w-full lg:w-[340px] h-[600px]">
+            <div className="px-4 max-w-[340px] mx-auto relative top-28 space-y-8">
               <img className='mx-auto' src={Marko} alt="Marko" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-xl font-bold'>Marko</h2>
@@ -80,8 +80,8 @@ const TeamSection = () => {
               </div>
             </div>
           </article>
-          <article className="bg-roadmap bg-white pt-8 lg:pt-0 w-[340px] lg:h-[600px]">
-            <div className="px-4 lg:relative top-28 space-y-8">
+          <article className="bg-roadmap tombstone bg-white pt-8 lg:pt-0 w-full lg:w-[340px] h-[600px]">
+            <div className="px-4 max-w-[340px] mx-auto relative top-28 space-y-8">
               <img className=' mx-auto' src={Timmothy} alt="Timmorhy" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-xl font-bold'>Timmothy</h2>
@@ -93,8 +93,8 @@ const TeamSection = () => {
               </div>
             </div>
           </article>
-          <article className="bg-roadmap bg-white pt-8 lg:pt-0 w-[340px] lg:h-[600px]">
-            <div className="px-4 lg:relative top-28 space-y-8">
+          <article className="bg-roadmap tombstone bg-white pt-8 lg:pt-0 w-full lg:w-[340px] h-[600px]">
+            <div className="px-4 max-w-[340px] mx-auto relative top-28 space-y-8">
               <img className='mx-auto' src={Gabriel} alt="Gabriel" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-xl font-bold'>Gabriel</h2>
@@ -106,8 +106,8 @@ const TeamSection = () => {
               </div>
             </div>
           </article>
-          <article className="bg-roadmap bg-white pt-8 lg:pt-0 w-[340px] lg:h-[600px]">
-            <div className="px-4 lg:relative top-28 space-y-8">
+          <article className="bg-roadmap tombstone bg-white pt-8 lg:pt-0 w-full lg:w-[340px] h-[600px]">
+            <div className="px-4 max-w-[340px] mx-auto relative top-28 space-y-8">
               <img className='mx-auto' src={Charlie} alt="Charlie" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-xl font-bold'>Charlie</h2>

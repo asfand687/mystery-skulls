@@ -23,6 +23,10 @@
   object-fit: fill;
 }
 
+.bg-roadmap.tombstone {
+  background: url("./assets/roadmap-02.svg") no-repeat center center/contain;
+}
+
 @media screen and (min-width: 1024px) {
   .section-inset {
     box-shadow: -1px 30px 23px 2px rgba(0, 0, 0, 0.46) inset;
