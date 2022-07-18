@@ -13,9 +13,9 @@ const IntroductionSection = () => {
           <img src={Graves} alt="graves" />
         </div>
         <div className="flex relative bg-white rounded-xl flex-col items-center lg:flex-row top-0 left-0 z-10 lg:p-10">
-          <div className="pb-4 lg:pb-0"><img src={Logo} alt="mystery skulls" /></div>
+          <div className="pb-4 hidden lg:block lg:pb-0"><img src={Logo} alt="mystery skulls" /></div>
           <div className="flex-1 pl-6">
-            <section className="flex flex-col items-center space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4">
+            <section className="flex items-center justify-center space-y-4 lg:space-y-0 flex-row flex-wrap space-x-4">
               <article className="rounded-[30px]">
                 <div className="bg-[#014051] h-56 w-48 rounded-t-[30px] flex justify-center items-center">
                   <img src={SkullOne} alt="Mystery Skulls" />
@@ -24,7 +24,8 @@ const IntroductionSection = () => {
                   <p className="font-avander bg-white drop-shadow-md h-16 text-xl rounded-b-[30px] flex justify-center items-center">Common
                   </p>
                 </div>
-              </article><article className="rounded-[30px]">
+              </article>
+              <article className="rounded-[30px]">
                 <div className="bg-[#EEA623] h-56 w-48 rounded-t-[30px] flex justify-center items-center">
                   <img src={SkullTwo} alt="Mystery Skulls" />
                 </div>
@@ -33,7 +34,8 @@ const IntroductionSection = () => {
                     Legendary
                   </p>
                 </div>
-              </article><article className="rounded-[30px]">
+              </article>
+              <article className="rounded-[30px]">
                 <div className="bg-[#8AB274] h-56 w-48 rounded-t-[30px] flex justify-center items-center">
                   <img src={SkullThree} alt="Mystery Skulls" />
                 </div>
