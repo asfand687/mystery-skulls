@@ -1,6 +1,7 @@
 import React from 'react'
 import Skull from '../assets/logo.png'
 import { ReactComponent as Twitter } from '../assets/twitter.svg'
+import { ReactComponent as Discord } from '../assets/discord.svg'
 
 const Footer = () => {
   return (
@@ -13,6 +14,12 @@ const Footer = () => {
               <Twitter />
             </a>
           </div>
+          <div className="text-white">
+            <a href="https://discord.gg/mysteryskulls">
+              <Discord />
+            </a>
+          </div>
+
         </div>
       </div>
     </footer>

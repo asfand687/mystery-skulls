@@ -1,6 +1,5 @@
 import React from 'react'
 import { ReactComponent as Twitter } from '../assets/twitter.svg'
-import { ReactComponent as Discord } from '../assets/discord.svg'
 import Daniel from '../assets/daniel.jpg'
 import Davyd from '../assets/davyd.png'
 import Aleksei from '../assets/alexei.jpg'
@@ -31,7 +30,6 @@ const TeamSection = () => {
                 <h3 className='text-xl font-bold'>Founder & Team Management</h3>
                 <div className="flex gap-x-2">
                   <Twitter className='text-black' />
-                  <Discord />
                 </div>
               </div>
             </div>
@@ -44,7 +42,6 @@ const TeamSection = () => {
                 <h3 className='text-xl font-bold'>Founder & Team Management</h3>
                 <div className="flex gap-x-2">
                   <Twitter className='text-black' />
-                  <Discord />
                 </div>
               </div>
             </div>
@@ -54,10 +51,9 @@ const TeamSection = () => {
               <img className='mx-auto' src={Aleksei} alt="Aleksei" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-xl font-bold'>Aleksei</h2>
-                <h3 className='text-xl font-bold'>Accounting</h3>
+                <h3 className='text-xl font-bold lg:pb-6'>Accounting</h3>
                 <div className="flex gap-x-2">
                   <Twitter className='text-black' />
-                  <Discord />
                 </div>
               </div>
             </div>
@@ -72,10 +68,9 @@ const TeamSection = () => {
               <img className='mx-auto' src={Marko} alt="Marko" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-xl font-bold'>Marko</h2>
-                <h3 className='text-xl font-bold'>Artist</h3>
+                <h3 className='text-xl font-bold lg:pb-6'>Artist</h3>
                 <div className="flex gap-x-2">
                   <Twitter className='text-black' />
-                  <Discord />
                 </div>
               </div>
             </div>
@@ -85,10 +80,9 @@ const TeamSection = () => {
               <img className=' mx-auto' src={Timmothy} alt="Timmorhy" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-xl font-bold'>Timmothy</h2>
-                <h3 className='text-xl font-bold'>Web Developer</h3>
+                <h3 className='text-xl font-bold lg:pb-6'>Web Developer</h3>
                 <div className="flex gap-x-2">
                   <Twitter className='text-black' />
-                  <Discord />
                 </div>
               </div>
             </div>
@@ -98,10 +92,9 @@ const TeamSection = () => {
               <img className='mx-auto' src={Gabriel} alt="Gabriel" />
               <div className='p-6 text-[#313131] space-y-4'>
                 <h2 className='text-xl font-bold'>Gabriel</h2>
-                <h3 className='text-xl font-bold'>Marketing</h3>
+                <h3 className='text-xl font-bold lg:pb-6'>Marketing</h3>
                 <div className="flex gap-x-2">
                   <Twitter className='text-black' />
-                  <Discord />
                 </div>
               </div>
             </div>
@@ -114,7 +107,6 @@ const TeamSection = () => {
                 <h3 className='text-xl font-bold'>Smart Contract Developer</h3>
                 <div className="flex gap-x-2">
                   <Twitter className='text-black' />
-                  <Discord />
                 </div>
               </div>
             </div>
