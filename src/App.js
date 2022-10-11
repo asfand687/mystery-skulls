@@ -10,13 +10,13 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <main className="overflow-x-hidden bg-[#394834]">
+    <main className="overflow-hidden bg-[#394834]">
       <Navbar />
       <HeroSection />
       <IntroductionSection />
       <RoadmapSection />
-      <FAQSection />
       <TeamSection />
+      <FAQSection />
       <Footer />
     </main>
   );

@@ -1,92 +1,121 @@
 import React from 'react'
-import { ReactComponent as Roadmap01 } from '../assets/roadmap-01.svg'
-import TreeLeft from '../assets/treesgifleft.gif'
-import TreeRight from '../assets/treegifright.gif'
-import GraveBullet from '../components/GraveBullet'
+import { ReactComponent as Casket } from '../assets/green-casket.svg'
 
 const RoadmapSection = () => {
   return (
-    <section className="relative flex flex-col items-center lg:block pt-4 lg:pt-10" id="roadmap">
-      <div className="hidden lg:block absolute z-10 -left-32 top-36">
-        <img src={TreeLeft} alt="Tree" />
-      </div>
-      <div className="hidden lg:block absolute z-10 -right-32 top-36">
-        <img src={TreeRight} alt="Tree" />
-      </div>
-      <div className="w-full lg:max-w-2xl mx-auto pt-6">
-        <Roadmap01 className="mx-auto lg:mx-0" />
-      </div>
-      <div className="w-full flex flex-col lg:flex-row lg:space-x-12 max-w-5xl mx-auto px-4 pt-28">
-        <div className="flex-1 bg-roadmap bg-white py-4 lg:h-[890px]">
-          <div className='lg:px-14 relative lg:top-32 space-y-8'>
-            <article className="flex flex-col items-center lg:flex-row">
-              <div>
-                <GraveBullet number={1} />
+    <section className="w-full relative max-w-5xl mx-auto py-16 px-4 space-y-8 text-white" id="roadmap">
+      <h2 className="font-avander font-medium text-7xl text-center">Roadmap</h2>
+      <section>
+        <article className="flex space-x-20 border-b-4 border-white pb-28">
+          <div className="w-3 h-[1720px] bg-white mt-40"></div>
+          <div className="flex-1 space-y-8">
+            <h3 className="font-avander text-4xl uppercase pb-8">Phase 1</h3>
+            <article className="space-y-4">
+              <h2 className="uppercase font-bold text-2xl border-b border-white relative">Degen Time:</h2>
+              <div className="absolute left-[2px] top-[16rem]">
+                <Casket />
+                <p className="text-black absolute left-3 top-4 text-3xl">1</p>
               </div>
-              <p className="px-4 text-lg">
-                15% earnings to be donated to Ukraine to assist displaced families during the conflict.
+              <p className="font-semibold text-xl lg:pr-6">
+                This period we look to organize and collaborate using strategic partnerships with distinguished brands and/or projects  across many avenues within the NFT community, celebrities, artists, influencers and other NFT projects.
               </p>
             </article>
-            <article className="flex flex-col items-center lg:flex-row">
-              <div>
-                <GraveBullet number={2} />
+
+            <article className="space-y-4">
+              <h2 className="uppercase font-bold text-2xl border-b border-white relative">Airdrops:</h2>
+              <div className="absolute left-[2px] top-[26rem]">
+                <Casket />
+                <p className="text-black absolute left-3 top-4 text-3xl">2</p>
               </div>
-              <p className="px-4 text-lg">
-                35% of royalties will be spread out to holders’ wallets.
+              <p className="font-semibold text-xl lg:pr-6">
+                During Mint Phase, the Mystery Skulls team will airdrop 25 free Mystery Skulls NFTs among selected supporters. Stay tuned through our Discord activities to enter.
               </p>
             </article>
-            <article className="flex flex-col items-center lg:flex-row">
-              <div>
-                <GraveBullet number={3} />
+
+            <article className="space-y-4">
+              <h2 className="uppercase font-bold text-2xl border-b border-white relative">Mystery Store:</h2>
+              <div className="absolute left-[2px] top-[35rem]">
+                <Casket />
+                <p className="text-black absolute left-3 top-4 text-3xl">3</p>
               </div>
-              <p className="px-4 text-lg">
-                Each month the founders of the projects will be airdropping Mystery Skulls NFT’S to 50 lucky holders. These airdrops will be completely random.
+              <p className="font-semibold text-xl lg:pr-6">
+                Mystery Skulls streetwear collaboration will be launched for our unique community to set us apart. This will include Hoodies, T-shirts, art collectibles and so much more!
               </p>
             </article>
-            <article className="flex flex-col items-center lg:flex-row">
-              <div>
-                <GraveBullet number={4} />
+
+            <h3 className="font-avander text-4xl uppercase pt-12 pb-8">Phase 2</h3>
+
+            <article className="space-y-4">
+              <h2 className="uppercase font-bold text-2xl border-b border-white relative">Utility:</h2>
+              <div className="absolute left-[2px] top-[53rem]">
+                <Casket />
+                <p className="text-black absolute left-3 top-4 text-3xl">4</p>
               </div>
-              <p className="px-4 text-lg">
-                Design {"&"} Development of our P2E platform will begin to take place. Holders will be able to use their position in the project to participate in snapshots and be able to design/develop the P2E platform + incentives. For the community and by the community - but for real.
+              <p className="font-semibold text-xl lg:pr-6">
+                We believe that we have something special when it comes to our art, as we set out to continuously make an impact on the web3 environment. We would like to do just that. The part of our phase will entail an NFT launchpad fund - this fund will be strictly available to ONLY Mystery Skull holders. A fund of $50,000 USD to 3 lucky holders is to be awarded upon post-completion and selection of an application that will be available to all as we enter this phase.
+              </p>
+            </article>
+
+            <article className="space-y-4">
+              <h2 className="uppercase font-bold text-2xl border-b border-white relative">NOT SO DEGEN LAUNCHPAD:</h2>
+              <div className="absolute left-[2px] top-[68.5rem]">
+                <Casket />
+                <p className="text-black absolute left-3 top-4 text-3xl">5</p>
+              </div>
+              <p className="font-semibold text-xl lg:pr-6">
+                Mystery Skulls holders will gain early access to new and upcoming NFT projects, Whitelist spots, even FREE NFTs. Depending on the upcoming NFT projects we have coming in the future, this may be a monthly, or even a weekly event!
+              </p>
+            </article>
+
+            <article className="space-y-4">
+              <h2 className="uppercase font-bold text-2xl border-b border-white relative">GEN 2 COLLECTION UTILITY:</h2>
+              <div className="absolute left-[2px] top-[79rem]">
+                <Casket />
+                <p className="text-black absolute left-3 top-4 text-3xl">6</p>
+              </div>
+              <p className="font-semibold text-xl lg:pr-6">
+                Our next collection drop will be bigger than big! Some of our holders will have early whitelist spots and even FREE NFTs for this collection. This may or not be already done?
+              </p>
+            </article>
+
+            <h3 className="font-avander text-4xl uppercase pt-12 pb-8">Phase 3</h3>
+
+            <article className="space-y-4">
+              <h2 className="uppercase font-bold text-2xl border-b border-white relative">MYSTERY PASS:</h2>
+              <div className="absolute left-[2px] top-[97rem]">
+                <Casket />
+                <p className="text-black absolute left-3 top-4 text-3xl">7</p>
+              </div>
+              <p className="font-semibold text-xl lg:pr-6">
+                The Mystery Pass will be created in order to allow the new community to decide the direction of Mystery Skulls, its ecosystem and its future to continue developing Web3 and the NFTs. A FULL secondary sales percentage will go into the community vault which will be used in any area the ecosystem sees fit to continue expanding Mystery Skulls. Each holder will be granted voting power within the ecosystem, privileges and exclusive access to anything related to our project.
+              </p>
+            </article>
+
+            <article className="space-y-4">
+              <h2 className="uppercase font-bold text-2xl border-b border-white relative">WORLD OF SKULLS:</h2>
+              <div className="absolute left-[2px] top-[112rem]">
+                <Casket />
+                <p className="text-black absolute left-3 top-4 text-3xl">8</p>
+              </div>
+              <p className="font-semibold text-xl lg:pr-6">
+                Our game plan here is to exclusively develop and maintain a WEB3 environment where anything and everything related to our ecosystem can come together to further expand our ecosystem, interact with decentralised works, and further make an impact on the WEB3
+              </p>
+            </article>
+
+            <article className="space-y-4">
+              <h2 className="uppercase font-bold text-2xl border-b border-white relative">VIDEO GAME UTILITY:</h2>
+              <div className="absolute left-[2px] top-[124rem]">
+                <Casket />
+                <p className="text-black absolute left-3 top-4 text-3xl">9</p>
+              </div>
+              <p className="font-semibold text-xl lg:pr-6">
+                As true believers in the blockchain and everything it has to offer, we would like to introduce the world’s first holder-founded P2E video game. What does this mean? From beginning to end, holders will have the opportunity to join us on the journey of designing, developing and curating a P2E ecosystem that will continuously reward holders and users. Best of all? Everything and anything inside the ecosystem will be exclusively available for Mystery Skull holders first . We aim to introduce the world's first IOS and Android based video game. Here, we will empower our users with NFT based collectables, ownerships and a foundation around the P2E environment. Whether it’s levelling up, value of collectibles and/or an earning style - this will be rewarded to Mystery Skull holders in a tokenized format allowing them to do it for SOL.
+
               </p>
             </article>
           </div>
-        </div>
-
-        <div className="flex-1 bg-roadmap-lg bg-white lg:h-[1200px] mt-14 py-4 lg:mt-28">
-          <div className='lg:px-16 lg:relative lg:top-32 space-y-8'>
-            <article className="flex flex-col items-center lg:flex-row">
-              <div>
-                <GraveBullet number={5} />
-              </div>
-              <p className="px-4 text-lg">
-                Merch Store Launch. A merch of our NFT collection will be available for our holders ONLY, to buy. If you become a holder and get one of our NFTS
-                you’ll be granted access to our merch store where only you can buy merch of your own exclusive NFT or even NFTS inside our collection.
-              </p>
-            </article>
-            <article className="flex flex-col items-center lg:flex-row">
-              <div>
-                <GraveBullet number={6} />
-              </div>
-              <p className="px-4 text-lg">
-                60 days post-mint, we will begin to host parties in LA, MIA, NYC, and LDN. In which our FOUNDERS and the whole team will participate, only holders will be allowed to attend these events in these cities and also we will have
-                people going around asking how do the holders and members feel about the project in general and what can we improve in the future.
-              </p>
-            </article>
-            <article className="flex flex-col items-center lg:flex-row">
-              <div>
-                <GraveBullet number={7} />
-              </div>
-              <p className="px-4 text-lg">
-                For the future collection of MYSTERY SKULLS, each holder will be able to draw his design NFT for a project that will come after mystery skulls. There will be a community vote that will help us choose one good design, and from there make a full multi-thousand collection out of it. The winner will be rewarded with a BIG mystery prize
-              </p>
-            </article>
-          </div>
-        </div>
-
-
-      </div>
+        </article>
+      </section>
     </section>
   )
 }

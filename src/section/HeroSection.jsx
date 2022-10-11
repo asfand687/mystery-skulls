@@ -20,7 +20,7 @@ const HeroSection = () => {
 
 
   return (
-    <section className="min-h-[400px] md:min-h-[500px] lg:min-h-[1056px] flex justify-center items-center text-white" id="hero">
+    <section className="min-h-[400px] md:min-h-[500px] lg:min-h-[1056px] flex justify-center text-white" id="hero">
       <div className="absolute top-8 lg:top-0 z-0">
         <ReactPlayer
           className="video"
@@ -32,9 +32,12 @@ const HeroSection = () => {
           height="100%"
         />
       </div>
-      <div className="z-10">
-        <h1 className='font-avander animate-fade text-6xl lg:text-[180px] lg:leading-[180px] text-center'>MYSTERY <br />
-          SKULLS</h1>
+      <div className="z-10 text-center">
+        <h1 className='font-avander pt-[24rem] animate-fade text-6xl lg:text-[75px] text-center'>Join Mystery Skulls</h1>
+        <p className="max-w-lg mx-auto font-medium py-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur tincidunt enim eget ut urna lacus, dapibus.
+        </p>
+        <button className="py-3 px-8 text-lg lg:text-xl text-black font-semibold bg-[#ADDC68] rounded-full">Connect Wallet</button>
       </div>
       <div className="absolute z-10 bottom-0 right-10">
         <div className={`fixed z-[100] cursor-pointer right-2 bottom-0 transition-opacity ease-in-out duration-300 text-white`}>

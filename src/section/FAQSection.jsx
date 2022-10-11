@@ -1,43 +1,59 @@
 import React from 'react'
 import { ReactComponent as FAQTitle } from '../assets/faq-title.svg'
+import { ReactComponent as Tombstone } from '../assets/tombstone.svg'
+import Tree from '../assets/treegifright.gif'
 
 const FAQSection = () => {
   return (
-    <section id="faq">
-      <div className="w-full relative max-w-5xl mx-auto p-4">
+    <section id="faq" className="pt-32 relative">
+      <div className="w-full relative max-w-5xl mx-auto p-4 text-white">
         <FAQTitle className="w-full" />
-        <div className='flex lg:flex-row flex-col space-y-4 lg:space-y-0 items-center lg:items-start py-16'>
-          <article className="flex-1 text-white space-y-6 lg:border-r border-white">
-            <div className="space-y-2 text-xl">
-              <h2 className="font-bold">Mint Date?</h2>
-              <p className="w-full max-w-[26rem]">Approximately 1 month <br />Supply: TBD</p>
-            </div>
-
-            <div className="space-y-2 text-xl">
-              <h2 className="font-bold">What is Mystery Skulls?</h2>
-              <p className="w-full max-w-[26rem]">Mystery Skulls as a project is not portrayed as just an upcoming NFT Collection. There are a lot of deep meanings hidden under the name Mystery Skulls. Mystery Skulls has been in the thoughts for the past year and a half and finally is brought to life better than ever was and will be.</p>
+        <section className="space-y-8 py-16">
+          <article className="flex space-x-12 border-b border-white">
+            <p>What is mint date?</p>
+            <div>
+              <p>Approximately 1 month</p>
+              <p>Supply: TBD</p>
             </div>
           </article>
-          <article className="flex-1 flex justify-end text-white">
-            <section className="space-y-6">
-              <div className="space-y-2 text-xl ">
-                <h2 className="font-bold">Is the team doxxed?</h2>
-                <p className="w-full max-w-[26rem]">Yes, all the team members are going to introduce them selfs on each AMA</p>
-              </div>
 
-              <div className="space-y-2 text-xl">
-                <h2 className="font-bold">How to contact the team?</h2>
-                <p className="w-full max-w-[26rem]">You can contact the team on discord, moderator and founders are always to happy to chat with their community.</p>
-              </div>
-
-              <div className="space-y-2 text-xl">
-                <h2 className="font-bold">What Blockchain is it on?</h2>
-                <p className="w-full">TBD</p>
-              </div>
-            </section>
+          <article className="flex space-x-28 border-b border-white">
+            <p>What is Mystery Skulls?</p>
+            <div className="pl-2">
+              <p>Mystery Skulls as a project is not portrayed as just an upcoming NFT Collection. There are a lot of deep meanings hidden under the name Mystery Skulls. Mystery Skulls has been in the thoughts for the past year and a half and finally is brought to life better than ever was and will be.
+              </p>
+            </div>
           </article>
-        </div>
+
+          <article className="flex space-x-8 border-b border-white">
+            <p>Is the team doxxed?</p>
+            <div>
+              <p>
+                Yes, all the team members are going to introduce them selfs on each AMA.
+              </p>
+            </div>
+          </article>
+
+          <article className="flex border-b border-white">
+            <p>How to contact the team?</p>
+            <div>
+              <p>
+                You can contact the team on discord, moderator and founders are always to happy to chat with their community.
+              </p>
+            </div>
+          </article>
+          <article className="flex space-x-14">
+            <p>What Blockchain <br /> is it on?</p>
+            <div>
+              <p>
+                TBD
+              </p>
+            </div>
+          </article>
+        </section>
       </div>
+      <img className="absolute -right-20 -bottom-80" src={Tree} alt="Tree Gif" />
+      <Tombstone className="absolute -left-0 -bottom-0" />
     </section>
   )
 }
