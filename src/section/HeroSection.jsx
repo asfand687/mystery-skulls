@@ -32,11 +32,8 @@ const HeroSection = () => {
           height="100%"
         />
       </div>
-      <div className="z-10 text-center">
+      <div className="z-10 text-center space-y-6">
         <h1 className='font-avander pt-[24rem] animate-fade text-6xl lg:text-[75px] text-center'>Join Mystery Skulls</h1>
-        <p className="max-w-lg mx-auto font-medium py-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur tincidunt enim eget ut urna lacus, dapibus.
-        </p>
         <button className="py-3 px-8 text-lg lg:text-xl text-black font-semibold bg-[#ADDC68] rounded-full">Connect Wallet</button>
       </div>
       <div className="absolute z-10 bottom-0 right-10">
