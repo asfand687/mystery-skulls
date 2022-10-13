@@ -33,8 +33,8 @@ const HeroSection = () => {
         />
       </div>
       <div className="z-10 text-center space-y-6">
-        <h1 className='font-avander pt-[24rem] animate-fade text-6xl lg:text-[75px] text-center'>Join Mystery Skulls</h1>
-        <button className="py-3 px-8 text-lg lg:text-xl text-black font-semibold bg-[#ADDC68] rounded-full">Connect Wallet</button>
+        <h1 className='font-avander pt-32 md:pt-[24rem] animate-fade text-4xl md:text-6xl lg:text-[75px] text-center'>Join Mystery Skulls</h1>
+        <button className="py-3 px-8 text-base md:text-lg lg:text-xl text-black font-semibold bg-[#ADDC68] rounded-full">Connect Wallet</button>
       </div>
       <div className="absolute z-10 bottom-0 right-10">
         <div className={`fixed z-[100] cursor-pointer right-2 bottom-0 transition-opacity ease-in-out duration-300 text-white`}>

@@ -33,7 +33,7 @@
   }
 
   .bg-roadmap {
-    background: url("./assets/roadmap-03.png") no-repeat center center/cover;
+    background: url("./assets/teamBg.svg") no-repeat center center/contain;
   }
 
   .bg-roadmap-lg {

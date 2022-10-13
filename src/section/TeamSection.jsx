@@ -11,17 +11,17 @@ import RoadmapTop from '../assets/roadmap-03-top.png'
 const TeamSection = () => {
   return (
     <section id="team">
-      <div className="flex flex-col items-center text-white px-4 lg:pb-32 space-y-8">
-        <h2 className="font-avander text-center text-4xl lg:text-7xl font-bold">The Mystery Skulls Team</h2>
-        <p className="max-w-2xl lg:text-center">
+      <div className="flex flex-col items-center text-white px-4 pb-32 space-y-8">
+        <h2 className="font-avander text-center text-4xl leading-[50px] lg:text-7xl font-bold">The Mystery Skulls Team</h2>
+        <p className="max-w-2xl text-center">
           Our team consists of well-educated and well vetted. NFT enthusiasts.
           They’ve put everything into the project, working every day to PREFECT
           every single piece of the project itself.
         </p>
       </div>
       <div className="w-full max-w-6xl mx-auto p-4">
-        <section className="flex justify-center flex-wrap gap-x-8 gap-y-10">
-          <article className="bg-white relative pt-8 lg:pt-0 w-full lg:w-[268px] h-[290px]">
+        <section className="flex justify-center flex-wrap gap-x-8 gap-y-28">
+          <article className="bg-white relative pt-8 lg:pt-0 w-[268px] h-[320px] lg:h-[290px]">
             <div className="absolute -top-[85px]">
               <img className="w-[268px]" src={RoadmapTop} alt="roadmap top" />
             </div>
@@ -33,7 +33,7 @@ const TeamSection = () => {
               </div>
             </div>
           </article>
-          <article className="bg-white relative pt-8 lg:pt-0 w-full lg:w-[268px] h-[290px]">
+          <article className="bg-white relative pt-8 lg:pt-0 w-[268px] h-[320px] lg:h-[290px]">
             <div className="absolute -top-[85px]">
               <img className="w-[268px]" src={RoadmapTop} alt="roadmap top" />
             </div>
@@ -45,7 +45,7 @@ const TeamSection = () => {
               </div>
             </div>
           </article>
-          <article className="bg-white relative pt-8 lg:pt-0 w-full lg:w-[268px] h-[290px]">
+          <article className="bg-white relative pt-8 lg:pt-0 w-[268px] h-[320px] lg:h-[290px]">
             <div className="absolute -top-[85px]">
               <img className="w-[268px]" src={RoadmapTop} alt="roadmap top" />
             </div>
@@ -61,8 +61,8 @@ const TeamSection = () => {
       </div>
 
       <div className="w-full max-w-[1440px] mx-auto p-4 pt-28">
-        <section className="flex flex-wrap justify-center gap-x-8 gap-y-10">
-          <article className="bg-white relative pt-8 lg:pt-0 w-full lg:w-[268px] h-[290px]">
+        <section className="flex flex-wrap justify-center gap-x-8 gap-y-28">
+          <article className="bg-white relative pt-8 lg:pt-0 w-[268px] h-[320px] lg:h-[290px]">
             <div className="absolute -top-[85px]">
               <img className="w-[268px]" src={RoadmapTop} alt="roadmap top" />
             </div>
@@ -73,7 +73,7 @@ const TeamSection = () => {
               </div>
             </div>
           </article>
-          <article className="bg-white relative pt-8 lg:pt-0 w-full lg:w-[268px] h-[290px]">
+          <article className="bg-white relative pt-8 lg:pt-0 w-[268px] h-[320px] lg:h-[290px]">
             <div className="absolute -top-[85px]">
               <img className="w-[268px]" src={RoadmapTop} alt="roadmap top" />
             </div>
@@ -84,7 +84,7 @@ const TeamSection = () => {
               </div>
             </div>
           </article>
-          <article className="bg-white relative pt-8 lg:pt-0 w-full lg:w-[268px] h-[290px]">
+          <article className="bg-white relative pt-8 lg:pt-0 w-[268px] h-[320px] lg:h-[290px]">
             <div className="absolute -top-[85px]">
               <img className="w-[268px]" src={RoadmapTop} alt="roadmap top" />
             </div>
@@ -95,7 +95,7 @@ const TeamSection = () => {
               </div>
             </div>
           </article>
-          <article className="bg-white relative pt-8 lg:pt-0 w-full lg:w-[268px] h-[290px]">
+          <article className="bg-white relative pt-8 lg:pt-0 w-[268px] h-[320px] lg:h-[290px]">
             <div className="absolute -top-[85px]">
               <img className="w-[268px]" src={RoadmapTop} alt="roadmap top" />
             </div>
